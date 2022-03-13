@@ -1,0 +1,95 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Шапка */
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  color: #000000;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Баннер */
+.hero {
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-bg-color);
+}
+
+/* Button */
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+
+/* Особенности */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* Чем мы занимаемся */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Наша команда */
+.staff-list .name {
+  color: var(--title-text-color);
+}
+
+/* Подвал */
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+
+.footer .logo-web {
+  color: var(--accent-color);
+}
+
+.footer .logo-studio {
+  color: #ffffff;
+}
+
+.footer-address {
+  color: #ffffff;
+}
+
+.footer-auth {
+  color: rgb(255, 255, 255, 0.6);
+}
