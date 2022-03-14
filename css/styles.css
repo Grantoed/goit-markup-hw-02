@@ -93,3 +93,9 @@ ul {
 .footer-auth {
   color: rgb(255, 255, 255, 0.6);
 }
+
+/* Портфолио */
+
+.hidden {
+  visibility: hidden;
+}
