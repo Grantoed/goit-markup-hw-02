@@ -4,9 +4,12 @@
   --accent-color: #2196f3;
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #2f303a;
+  --primary-button-color: #f5f4fa;
 }
 
 body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 }
@@ -20,12 +23,27 @@ ul {
 }
 
 /* Шапка */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
 .logo-web {
   color: var(--accent-color);
 }
 
 .logo-studio {
   color: #000000;
+}
+
+.site-nav,
+.auth-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link {
@@ -52,24 +70,52 @@ ul {
   color: var(--primary-bg-color);
 }
 
-/* Button */
-.button.primary {
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
+  cursor: pointer;
 }
 
 /* Особенности */
 .feature-list .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
   color: var(--title-text-color);
+}
+
+.feature-list .text {
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* Чем мы занимаемся */
 .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
   color: var(--title-text-color);
 }
 
 /* Наша команда */
 .staff-list .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
   color: var(--title-text-color);
 }
 
@@ -87,15 +133,53 @@ ul {
 }
 
 .footer-address {
+  font-size: 14px;
+  line-height: 1.71px;
+  font-style: normal;
   color: #ffffff;
 }
 
 .footer-auth {
+  font-size: 14px;
+  line-height: 1.71px;
+  font-style: normal;
   color: rgb(255, 255, 255, 0.6);
 }
 
-/* Портфолио */
+.footer-auth:hover,
+.footer-auth:focus {
+  color: var(--accent-color);
+}
 
+/* PORTFOLIO.HTML */
 .hidden {
   visibility: hidden;
+}
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  color: var(--title-text-color);
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.portfolio-examples .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.portfolio-examples .text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-text-color);
 }
