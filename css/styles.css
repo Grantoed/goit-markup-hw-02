@@ -134,14 +134,15 @@ ul {
   color: var(--logo-studio-secondary);
 }
 
+.footer-nav {
+  line-height: 1.71;
+}
 .footer-address {
-  line-height: 1.71px;
   font-style: normal;
   color: var(--primary-bg-color);
 }
 
 .footer-auth {
-  line-height: 1.71px;
   font-style: normal;
   color: rgb(255, 255, 255, 0.6);
 }
